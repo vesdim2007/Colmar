@@ -7,6 +7,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,600,700" rel="stylesheet">
     <link rel="stylesheet" href="./Resources/css/reset.css">
     <link rel="stylesheet" href="./Resources/css/style.css">
+    <link rel="stylesheet" href="./Resources/css/mobile.css">
   </head>
 
   <body>
@@ -66,7 +67,7 @@
       <div class="orientation">
         <div class="orientation-picture">
         <picture>
-        <source media="(max-width: 600px)" srcset="./Resources/images/information-orientation-mobile.jpg">
+        <source media="(max-width: 768px)" srcset="./Resources/images/information-orientation-mobile.jpg">
         <img src="./Resources/images/information-orientation.jpg" alt="Orientation date" style="width:auto;">
         </picture>
         </div>
@@ -80,7 +81,7 @@
       <div class="campus">
         <div class="campus-picture">
         <picture>
-        <source media="(max-width: 600px)" srcset="./Resources/images/information-campus-mobile.jpg">
+        <source media="(max-width: 768px)" srcset="./Resources/images/information-campus-mobile.jpg">
         <img src="./Resources/images/information-campus.jpg" alt="campus" style="width:auto;">
         </picture>
         </div>
@@ -95,7 +96,7 @@
       <div class="lecture">
         <div class="lecture-picture">
         <picture>
-        <source media="(max-width: 600px)" srcset="./Resources/images/information-guest-lecture-mobile.jpg">
+        <source media="(max-width: 768px)" srcset="./Resources/images/information-guest-lecture-mobile.jpg">
         <img src="./Resources/images/information-guest-lecture.jpg" alt="Oliver Sack" style="width:auto;">
         </picture>
         </div>
@@ -116,38 +117,38 @@
     <div class="courses">
       <div class="software">
        <img id="mobile" src="./Resources/images/course-software.jpg" alt="software"> 
-       <h3 id="mobile">Software Engineering</h3>
-       <span id="course">COURSES</span>
+       <h3>Software Engineering</h3>
+       <span id="mobile">COURSES</span>
        <p id="mobile">Web Development, Mobile Development, iOT, APIs</p>
       </div>
       <div class="computer">
        <img id="mobile" src="./Resources/images/course-computer-art.jpg" alt="computer"> 
-       <h3 id="mobile">Computer Art</h3>
-       <span id="course">COURSES</span>
+       <h3>Computer Art</h3>
+       <span id="mobile">COURSES</span>
        <p id="mobile">Imaging & Design, Web design, Motion graphics & Visual Effects, Computer Animation</p>
       </div>
       <div class="design">
        <img id="mobile" src="./Resources/images/course-design.jpg" alt="design"> 
-       <h3 id="mobile">Design</h3>
-       <span id="course">COURSES</span>
+       <h3>Design</h3>
+       <span id="mobile">COURSES</span>
        <p id="mobile">User Experience Design, User Research, Visual Design</p>
       </div>
       <div class="data">
        <img id="mobile" src="./Resources/images/course-data.jpg" alt="data"> 
-       <h3 id="mobile">Data</h3>
-       <span id="course">COURSES</span>
+       <h3>Data</h3>
+       <span id="mobile">COURSES</span>
        <p id="mobile">Data Science, Big data, SQL, Data visualization</p>
       </div>
       <div class="business">
        <img id="mobile" src="./Resources/images/course-business.jpg" alt="business"> 
-       <h3 id="mobile">Business</h3>
-       <span id="course">COURSES</span>
+       <h3>Business</h3>
+       <span id="mobile">COURSES</span>
        <p id="mobile">Product Development, Business Development, Startup</p>
       </div>
       <div class="marketing">
        <img id="mobile" src="./Resources/images/course-marketing.jpg" alt="marketing"> 
-       <h3 id="mobile">Marketing</h3>
-       <span id="course">COURSES</span>
+       <h3>Marketing</h3>
+       <span id="mobile">COURSES</span>
        <p id="mobile">Analytics, Content Marketing, Mobile Marketing</p>
       </div>
     </div>
@@ -161,23 +162,27 @@
     <div class="thesis"> 
       <div class="thesis-exhibit">
         <div class="video">
-          <video width="640" height="420" autoplay>
+          <video width=100% height="420" autoplay>
           <source src="./Resources/videos/thesis.mp4" type="video/mp4">
           </video>
-          <h3>Reimagine Urban</h3>
-          <p>"Curabitur vitae libero in ipsum porritor copnsequat. Aliquam et commodo lectus, nec consequat neque. Sed nom accumsan unna phasellus sed consequat ex. Etiam eget magus laoreet, efficitur dolor consequat, tristique ligua."</p>
+          <h3 id="mobile">Reimagine Urban</h3>
+          <p id="mobile">"Curabitur vitae libero in ipsum porritor copnsequat. Aliquam et commodo lectus, nec consequat neque. Sed nom accumsan unna phasellus sed consequat ex. Etiam eget magus laoreet, efficitur dolor consequat, tristique ligua."</p>
         </div>
       </div>
       <div class="fisma">
       <div class="thesis-fisma">
+      	<div class="thesis-image">
         <img src="./Resources/images/thesis-fisma.jpg" alt="prototype">
+        </div>
         <div class="prototype">
         <h4>Fisma: Design and Prototype</h4>
         <p id="prototype">Designer showcase of new protype product</p>
         </div>
       </div>
       <div class="study">
+      	<div class="study-image">
         <img src="./Resources/images/thesis-now-and-then.jpg" alt="New York">
+        </div>
         <div class="research">
         <h4>Now and Then</h4>
         <p id="prototype">Research study about New York</p>
